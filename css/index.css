@@ -386,7 +386,7 @@ body {
   margin-top: 6rem;
   margin-left: 6rem;
   letter-spacing: -0.06em;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 809px) {
@@ -437,6 +437,7 @@ body {
 }
 
 .hero__copy {
+  text-transform: uppercase;
   position: absolute;
   z-index: 2;
   font-size: 1.5rem;
@@ -445,7 +446,7 @@ body {
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  right: -4rem;
+  right: -2rem;
   bottom: 11rem;
 }
 
@@ -909,7 +910,7 @@ body {
 
 .win__desc {
   left: auto;
-  right: -2rem;
+  right: -.5rem;
   text-transform: uppercase;
 }
 
@@ -1015,7 +1016,7 @@ body {
   position: absolute;
   z-index: 2;
   top: 8rem;
-  right: -2rem;
+  right: -.5rem;
   font-size: 1.5rem;
   line-height: 1;
   -webkit-transform: rotate(-90deg);
@@ -1148,7 +1149,7 @@ body {
 .qual__desc {
   position: absolute;
   bottom: 9rem;
-  right: -2rem;
+  right: 0;
   font-size: 1.5rem;
   line-height: 1.4;
   -webkit-transform: rotate(-90deg);
@@ -1219,7 +1220,7 @@ body {
   z-index: 2;
   font-size: 2.4rem;
   text-align: center;
-  padding: 0 8.4rem;
+  width: 43.2rem;
   margin-bottom: 4.3rem;
   letter-spacing: -0.04em;
   font-weight: 400;
@@ -1228,6 +1229,7 @@ body {
 @media screen and (max-width: 1200px) {
   .contact__desc {
     padding: 0 19rem;
+    width: 100%;
   }
 }
 
@@ -1255,7 +1257,7 @@ body {
   -moz-column-gap: 2rem;
   -webkit-column-gap: 2rem;
   column-gap: 2rem;
-  row-gap: 3rem;
+  row-gap: 5rem;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }

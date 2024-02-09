@@ -1312,6 +1312,7 @@ body {
 .footer {
   background-color: #1d1d1f;
   padding: 10rem 10rem 21.4rem 10rem;
+  scroll-snap-align: start;
 }
 
 @media screen and (max-width: 1200px) {
